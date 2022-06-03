@@ -1,0 +1,73 @@
+/**
+ Jim's 4chan-X stylesheet
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+@import "./variables.scss";
+@import "./body.scss";
+@import "./link.scss";
+@import "./board-banner.scss";
+@import "./board-title.scss";
+@import "./reply.scss";
+@import "./user.scss";
+@import "./input.scss";
+
+.subject {
+  color: $subject-color !important;
+}
+
+.unread-line {
+  border-color: $border-color;
+}
+
+.quote {
+  color: $quote-color Im !important;
+}
+
+hr {
+  border: $border-width solid $border-color;
+}
+
+:root {
+  &.yotsuba-b,
+  &.yotsuba {
+    &.catalog-hover-expand {
+      .catalog-container {
+        &:hover {
+          .catalog-reply {
+            border-color: $catalog-container-border-color;
+          }
+          > .post {
+            background-color: $catalog-container-background-color;
+            border-color: $catalog-container-border-color;
+          }
+        }
+      }
+    }
+    .dialog {
+      background-color: $dialog-background-color;
+      color: $dialog-color;
+      border-color: $border-color;
+    }
+    .qr-link {
+      border: $border-width solid $border-color;
+      background: none;
+      background-color: $foreground-background-color;
+      color: $text-color !important;
+      &:hover {
+        border: $border-width solid $border-color;
+        background: none;
+        background-color: lighten($foreground-background-color, 10%);
+        color: $text-color !important;
+      }
+    }
+    #header-bar {
+      &.dialog {
+        background: none;
+        background-color: $dialog-background-color;
+        color: $dialog-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+a {
+  color: $link-color !important;
+  &:hover {
+    color: $link-color-hover !important;
+  }
+  &:active {
+    color: $link-color-active;
+  }
+  &:visited {
+    color: $link-color-visited;
+  }
+}

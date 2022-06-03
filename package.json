@@ -1,0 +1,14 @@
+{
+  "name": "jim-chan-style",
+  "version": "1.0.0",
+  "description": "My custom stylesheet",
+  "main": "index.js",
+  "author": "Jamie Bailey <psndanjam123@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.52.2"
+  },
+  "scripts": {
+    "build": "node ./index.js"
+  }
+}

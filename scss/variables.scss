@@ -1,0 +1,55 @@
+// general --------------------------------------------------------------------
+// background
+$background-background-color: #111;
+
+// foreground
+$foreground-background-color: lighten($background-background-color, 5%);
+
+// text
+$text-color: #ddd;
+$text-font-family: "Roboto", sans-serif;
+
+// border
+$border-color: lighten($foreground-background-color, 10%);
+$border-width: 1px;
+
+// links
+$link-color: #9ac9ff;
+$link-color-hover: lighten($link-color, 10%);
+$link-color-active: lighten($link-color, 15%);
+$link-color-visited: $link-color;
+
+// input
+$input-background-color: lighten($foreground-background-color, 10%);
+$input-border-color: $border-color;
+$input-color: $text-color;
+$input-color-hover: darken($text-color, 10%);
+$input-color-focus: $input-color-hover;
+$input-placeholder-color: darken($text-color, 20%);
+
+// buttons
+$button-background-color: lighten($foreground-background-color, 10%);
+$button-color: $text-color;
+
+// 4chan ----------------------------------------------------------------------
+// dialog
+$dialog-background-color: $foreground-background-color;
+$dialog-color: $text-color;
+
+// catalog-container
+$catalog-container-background-color: $foreground-background-color;
+$catalog-container-border-color: $border-color;
+
+// reply
+$reply-background-color: $foreground-background-color;
+$reply-border-color: $border-color;
+$reply-border-width: $border-width;
+
+// subject
+$subject-color: darken($text-color, 15%);
+
+// user
+$user-color: #67e7a5;
+
+// quote
+$quote-color: #78be22;
