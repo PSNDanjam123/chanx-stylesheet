@@ -45,6 +45,9 @@ hr {
         }
       }
     }
+    #menu {
+      color: $text-color !important;
+    }
     .dialog {
       background-color: $dialog-background-color;
       color: $dialog-color;

@@ -1,4 +1,5 @@
-a {
+a,
+a.quotelink {
   color: $link-color !important;
   &:hover {
     color: $link-color-hover !important;
